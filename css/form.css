@@ -1,0 +1,55 @@
+.form__label {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.form__field {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.form__field:required {
+    border: 1px solid hsl(0, 0%, 60%);
+}
+
+.form__field:disabled {
+    background-color: #ccc;
+}
+
+.form__fieldset {
+    border: 2px solid #2F4673;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.form__button {
+    width: 100%;
+    max-width: 500px;
+    height: 30px;
+    background-color: #2F4673;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.form__button:hover {
+    background-color: hsl(220, 42%, 45%);
+}
+
+.form__button:active {
+    background-color: hsl(220, 42%, 50%);
+}
+
+.form__legend {
+    background-color: #2F4673;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
