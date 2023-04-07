@@ -25,5 +25,5 @@ formElement.addEventListener("submit", (event) => {
       break;
   }
 
-  resultElement.innerText = result;
+  resultElement.innerText = result.toFixed(2);
 });
