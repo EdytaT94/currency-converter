@@ -53,3 +53,12 @@
     border-radius: 5px;
     padding: 10px;
 }
+
+.form__field--sum {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
