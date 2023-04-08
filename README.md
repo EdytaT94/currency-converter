@@ -1,6 +1,8 @@
 # Currency converter
 
-## My second project
+## Demo
+
+![Screenshot](https://github.com/EdytaT94/currency-converter/blob/main/images/screen.png?raw=true)
 
 https://edytat94.github.io/currency-converter/
 
@@ -8,6 +10,12 @@ https://edytat94.github.io/currency-converter/
 
 Currency converter from PLN to EUR or USD.
 
-### Used technologies
+## Used techniques
 
-ES6+ features, BEM
+- HTML
+- CSS
+- JavaScript ES6+
+- BEM
+- Normalize
+- Markdown
+- GIT
