@@ -3,8 +3,6 @@
     console.log("Witam wszystkich!");
   };
 
-  welcome();
-
   const calculateResult = (amount, currency) => {
     const rateEUR = 4.69;
     const rateUSD = 4.39;
@@ -30,7 +28,7 @@
     const currencyElement = document.querySelector(".js-form__currency");
     const amount = +amountElement.value;
     const currency = currencyElement.value;
-    const result = calculateResult(+amountElement.value, currencyElement.value);
+    const result = calculateResult(amount, currency);
 
     updateResultText(amount, result, currency);
   };
@@ -39,6 +37,8 @@
     const formElement = document.querySelector(".js-form");
 
     formElement.addEventListener("submit", onFormSubmit);
+
+    welcome();
   };
 
   init();
