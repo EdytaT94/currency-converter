@@ -17,15 +17,15 @@
   };
 
   const updateResultText = (amount, result, currency) => {
-    const resultElement = document.querySelector(".js-form__sum");
+    const resultElement = document.querySelector(".js-sum");
     resultElement.innerText = result.toFixed(2);
   };
 
   const onFormSubmit = (event) => {
     event.preventDefault();
 
-    const amountElement = document.querySelector(".js-form__pln");
-    const currencyElement = document.querySelector(".js-form__currency");
+    const amountElement = document.querySelector(".js-amount");
+    const currencyElement = document.querySelector(".js-currency");
     const amount = +amountElement.value;
     const currency = currencyElement.value;
     const result = calculateResult(amount, currency);
